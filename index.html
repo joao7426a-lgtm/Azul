@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface Azul e Cinza</title>
+    <style>
+        /* Definindo as variáveis de cores */
+        :root {
+            --cinza-escuro: #2c3e50;
+            --cinza-claro: #f4f7f6;
+            --azul-primario: #3498db;
+            --azul-hover: #2980b9;
+            --texto: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: var(--cinza-claro);
+            color: var(--texto);
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: var(--cinza-escuro);
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+            border-bottom: 4px solid var(--azul-primario);
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--azul-primario);
+        }
+
+        /* Botão Estilizado */
+        .btn {
+            display: inline-block;
+            background-color: var(--azul-primario);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: var(--azul-hover);
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: #777;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Projeto Termux</h1>
+    </header>
+
+    <div class="container">
+        <h2>Bem-vindo à Interface Profissional</h2>
+        <p>Este é um exemplo de layout utilizando tons de cinza para neutralidade e azul para destaque (chamada para ação).</p>
+        <p>Você pode editar este arquivo diretamente no <strong>Nano</strong> e atualizar o navegador para ver as mudanças.</p>
+        
+        <br>
+        <a href="#" class="btn">Clique Aqui</a>
+    </div>
+
+    <footer>
+        Desenvolvido no Termux &copy; 2025
+    </footer>
+
+</body>
+</html>
